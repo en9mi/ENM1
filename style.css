@@ -10,7 +10,7 @@
 }
 
 header {
-    border: 1px solid red;
+    border: 1px solid white;
     background-color: #000000; width: 1875px; height: 83px;
 }
 nav{
@@ -23,8 +23,9 @@ li{
 }
 
 main{
-    border: 1px solid blue; width: 1875px; height: 1524;
-    background-color:  #9C9C9C;
+    border: 1px solid rgb(0, 0, 0); width: 1875px; height: 1524px;
+    background-color:  #9C9C9C; width: 1875px; height: 800px;
+  
 }
 
 footer{
