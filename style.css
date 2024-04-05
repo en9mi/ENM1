@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Coda";
+    src: url("fonts/Coda-ExtraBold.ttf");
+}
+
 :root{
     --main-color: #9C9C9C;
     --seconary-color: #FFFFFF;
@@ -11,6 +16,7 @@
 
 a {
     height: fit-content;
+    text-decoration: none;
 }
 
 header {
@@ -32,10 +38,28 @@ header {
 
 .center {
     display: flex;
-    justify-content: space-evenly;
-    padding: 23px 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     border: 20px solid white;
     width: 90%;
+}
+.profile_menu{
+    width: 25%;
+    margin-left: 20px;
+}
+
+.logo{
+
+    display: flex;
+    align-items: center;
+}
+
+.likes{
+    width: 25%;
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
 }
 
 
@@ -57,6 +81,31 @@ main{
     height: 800px;
     padding-top: 25px;
   
+}
+.catalog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.chapter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px; 
+    height: 60px;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+    
+}
+
+.chapter p {
+    font-family: "Coda";
+    font-weight: 900;
+    font-size: 22px;
+    text-transform: uppercase;
+
 }
 
 footer{
