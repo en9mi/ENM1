@@ -97,7 +97,7 @@ main{
     border-radius: 10px;
     background-color: #000000;
     color: #FFFFFF;
-    
+
 }
 
 .chapter p {
@@ -105,6 +105,33 @@ main{
     font-weight: 900;
     font-size: 22px;
     text-transform: uppercase;
+
+}
+
+.banner{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 1293px;
+    height: 170px;
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    border-radius: 13px;
+    margin-top: 45px;
+
+
+}
+
+.points button{
+width: 13px;
+height: 13px;
+border-radius: 50px;
+border: 1px solid black;
+background-color: #000000;
+margin: 125px 5px 0px 5px;
+
+
+
 
 }
 
