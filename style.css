@@ -129,11 +129,27 @@ border-radius: 50px;
 border: 1px solid black;
 background-color: #000000;
 margin: 125px 5px 0px 5px;
-
-
-
-
 }
+
+.cards{
+    background-color: #FFFFFF;
+    width: 220px; height: 335px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border-radius: 13px;
+    margin-top: 60px;
+}
+.cards button{
+    width: 161px; height: 50px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    color: #9C9C9C;
+    border: solid #9C9C9C;
+
+ 
+}
+
 
 footer{
     border: 1px solid palegoldenrod;
