@@ -173,7 +173,7 @@ main {
 }
 
 .card img {
-
+    border: 3.5px solid #000000;
     width: 150px;
     height: 210px;
 
@@ -191,17 +191,34 @@ main {
 .cardbag {
     display: flex;
     flex-direction: row;
-    border: 2px solid #000000;
-    border-radius: 12px;
-    width: 400px;
+    border: 5px solid #000000;
+    background-color: #FFFFFF;
+    width: max-content;
     height: 400px;
-    margin: 0 auto;
+    margin: 0 auto 10px auto;
 }
 
-.card_info{
+.card_info {
     display: flex;
     flex-direction: column;
-    
+    border-left: 5px solid #000000;
+}
+
+.card_name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 380px;
+    height: 20%;
+    border-bottom: 5px solid #000000;
+}
+
+.card_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 380px;
+    height: 80%px;
 }
 
 footer {
